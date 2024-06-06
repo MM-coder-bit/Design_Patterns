@@ -26,4 +26,16 @@ A instância única da classe Singleton só é criada quando o método get_insta
 
   ![Singleton_4](imagens/Singleton_4.png)
 
+## Obs: 
+`Quando trabalhamos com arquivos python e fazemos importação de um arquivo.py (que no baixo dos panos é um módulo) em outro arquivo.py significa que o python faz que se torne o padrão singleton.`
+
+  ## Executando o arquivo `03_monostate.py`
+
+Este script demonstra o modo de criação de várias instâncias de um objeto, contudo, o estado é compartilhado entre as instâncias
+
+  ![Singleton_5](imagens/Singleton_5.png)
+
+Resultado:
+  ![Singleton_6](imagens/Singleton_6.png)
+
 </details>
