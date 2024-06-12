@@ -38,4 +38,19 @@ Este script demonstra o modo de criação de várias instâncias de um objeto, c
 Resultado:
   ![Singleton_6](imagens/Singleton_6.png)
 
+  ## Executando o arquivo `04_metaclasses.py`
+
+Este script demonstra como utilizar metaclasses para personalizar o processo de criação de instâncias. Ele mostra como a metaclasse University intercepta a criação de instâncias da classe Geek, imprimindo os argumentos passados durante a criação. No entanto, cada instância de Geek mantém seu próprio estado independente.
+
+  ![Singleton_7](imagens/Singleton_7.png)
+
+Resultado:
+  ![Singleton_8](imagens/Singleton_8.png)
+
+  ## Executando o arquivo `05_metaclasses.py`
+
+Este script demonstra como utilizar metaclasses para implementar o padrão Singleton em Python. Ele mostra como a metaclasse MetaSingleton garante que apenas uma instância da classe Logger seja criada. Independentemente de quantas vezes Logger seja instanciada, a mesma instância será retornada, garantindo que o estado seja compartilhado entre todas as instâncias.
+
+ ![Singleton_9](imagens/Singleton_9.png)
+
 </details>
