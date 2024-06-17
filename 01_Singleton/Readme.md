@@ -53,4 +53,12 @@ Este script demonstra como utilizar metaclasses para implementar o padrão Singl
 
  ![Singleton_9](imagens/Singleton_9.png)
 
+  ## Executando o arquivo `06_Proj_1_Singleton.py`
+
+Este script demonstra como utilizar metaclasses para implementar o padrão Singleton em Python. Ele mostra como a metaclasse `Singleton` garante que apenas uma instância da classe `Database` seja criada. Independentemente de quantas vezes `Database` seja instanciada, a mesma instância será retornada, garantindo que a mesma conexão com o banco de dados seja utilizada. A classe `Database` utiliza a metaclasse `Singleton` para controlar a criação de suas instâncias e gerenciar uma única conexão com um banco de dados SQLite.
+
+ ![Singleton_10](imagens/Singleton_10.png)
+
+Resultado:
+  ![Singleton_11](imagens/Singleton_11.png)
 </details>
