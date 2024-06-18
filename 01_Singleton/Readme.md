@@ -61,4 +61,13 @@ Este script demonstra como utilizar metaclasses para implementar o padrão Singl
 
 Resultado:
   ![Singleton_11](imagens/Singleton_11.png)
+
+   ## Executando o arquivo `07_Proj_2_Singleton.py`
+
+Este script demonstra como implementar o padrão Singleton em Python usando uma classe chamada SanidadeCheck. O padrão Singleton garante que apenas uma instância da classe seja criada, independentemente de quantas vezes a classe seja instanciada. A classe SanidadeCheck gerencia uma lista de servidores e inclui métodos para adicionar, modificar e verificar o status dos servidores.
+
+ ![Singleton_12](imagens/Singleton_12.png)
+
+Resultado:
+  ![Singleton_13](imagens/Singleton_13.png)
 </details>
